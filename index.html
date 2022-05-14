@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="footer, address, phone, icons" />
+    <title>The Final Round</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- For google sign in -->
+    <script src="https://apis.google.com/js/platform.js" async defer></script> 
+    <!--- For chat bot (Collect.chat) ------->
+    <script>(function(w, d) { w.CollectId = "6277cda2a20f4c449813d2ca"; var h = d.head || d.getElementsByTagName("head")[0]; var s = d.createElement("script"); s.setAttribute("type", "text/javascript"); s.async=true; s.setAttribute("src", "https://collectcdn.com/launcher.js"); h.appendChild(s); })(window, document);</script>    
+    <!------------------------------------------------------------------------------------------------------------------------------------->
+    <script language="vbscript" type="text/vbscript" src="saveemail.js">
+     </script> 
+     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!---------------------------------------------- BECOME A MEMBER PAGE---------------------------------------------------------------->
+ <div class="login-page">
+    <div class="login-div">
+        <div class="direct-login-button">
+            <div class="remove-login-page">
+                <img class="cross-button" src="crossimage.png">
+            </div>
+            <div class="google-login-button">
+                <button class="direct-signin-button">
+                    <img class="logoimg" src="googlelogo-removebg-preview.png"><span class="google-logo-text">&nbsp;Sign in with Google</span>
+                </button>
+                <button class="direct-signin-button">
+                    <img class="logoimg" src="logo-facebook.png"><span class="google-logo-text">&nbsp;Sign in with Facebook</span>
+                </button>
+            </div>
+            <div class="signin-signup-member signin-signup-tabset">
+                <input type="radio" name="tabset" >
+                <label id="signintab" for="tab1" class="signin-tab">SignIn</label>
+                <!-- Tab 2 -->
+                <input type="radio" name="tabset" >
+                <label id="signuptab" for="tab2" class="signup-tab">Signup</label>
+            </div>
+                <div class="memberdetails">
+                    
+                    <div class="signup-member-details">
+                        
+                            <div><span>Enter your Firstname</span><input name="Firstname" class="firstnamemem"></div>
+                            <div><span>Enter your Lastname</span><input name = "Lastname" class="lastnamemem"></div>
+                            <div><span>Enter your Phone Number</span><input name ="PhoneNumber" class="phonenumbermem"></div>
+                            <div><span >Enter Password</span><input type="password" name="password" class="passwordmem"></div>
+                    </div>
+                        <div class="signin-member-details">
+                            <form>
+                                <div><span class="phonenumberspan">Enter your Phone Number</span><input name = "signinphonenumber" class="phonenumbermem"></div>
+                                <div><span class="passwordspan">Enter Password</span><input name = "signinpassword" type="password" class="passwordmem"></div>
+                            </form>
+                        </div>
+                </div>
+                
+                <div class="memsignupbutton">
+                    <SPAN>Enter</SPAN>
+                </div>
+        </div>        
+    </div>
+</div>
+<!------------------------------------------------------- SECTION 1 - HEADER -------------------------------------------------------->
+    <div class="video-wrapper">
+        <div class="header-video" >
+            <video playsinline autoplay muted loop poster="black-bg.webp" type="video/webm" class="hdr-vdo">
+                <source src="vdo5.mp4" type="video/webm">
+                    Your browser does not support the video tag.
+            </video>
+        </div>
+        <div class="header">
+            
+            <div class="logo-heading">
+                
+                    <div class="logo">
+                        <img src="logoimg-dark.png" class="logo-light-dark" />
+                    </div>
+                    <div id="mySidenav" class="sidenav">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <a href="#" class="responsive-options-a">🏠Home</a>
+                        <a href="#" class="responsive-options-a">📄About</a>
+                        <a href="#" class="responsive-options-a">🤸Trainers</a>
+                        <a href="#" class="responsive-options-a">🥊Classes</a>
+                        <a href="#" class="responsive-options-a">⏲Schedule</a>
+                        <a href="#" class="responsive-options-a">☎Contact Us</a>
+                        <a href="#" class="responsive-options-a button-64-2">🙋Become a Member</a>
+                      </div>
+                
+                <div class ="header-options">
+                        <ul>
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Trainers</li>
+                            <li>Classes</li>
+                            <li>Schedule</li>
+                            <li class="header-member"><button class="button-64" role="button"><span class="text">Become a Member</span></button></li>
+                            
+                        </ul>
+                    
+                    <div class="toggle-bulb"><img id="bulb-button" src="bulb-on.png"></div>
+                    <span class="responsive-header-options" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                </div>
+            </div>
+            <div class = header-extra-bmi>
+<!----------------------------------------------------------- BMI CALCULATOR -------------------------------------------------------->
+                <div class = "bmi-calc">
+                    <span class="bmi-head">Calculate Your</span><span class="highlight-bmi-text"> Body Mass Index</span>
+                    <div class="tabset">
+                         <!-- Tab 1 -->
+                        <input type="radio" name="tabset"  aria-controls="standard" class="standardtab">
+                        <label id="tab1" for="tab1">Standard</label>
+                        <!-- Tab 2 -->
+                        <input type="radio" name="tabset"  aria-controls="Metric" class="metrictab">
+                        <label id="tab2" for="tab2">Metric</label>
+                    </div>
+                    <div class="tab-panels">
+                        <div id="standard" class="tab-panel1">
+                        <div class="bmi-height">Height</div><div><input type=”number” class="foot" placeholder="Foot" />
+                                                                 <input type=”number” class="inch" placeholder="Inches"/></div>
+                        <div class="bmi-weight">Weight</div><div><input type=”number” class="pounds" placeholder="Pounds"/></div>
+                        </div>
+                        <div id="metric" class="tab-panel2">
+                            <div class="bmi-height">Height</div><div><input type=”number” class="centimeter" placeholder="Centimeters" />
+                            <div class="bmi-weight">Weight</div><div><input type=”number” class="kilograms" placeholder="Kilograms"/></div>
+                        </div>
+                    </div>
+                    <div>
+                        <button class="calc-bmi-button">Calculate BMI</button>
+                    </div>
+                    <div class="bmi-display">
+
+                    </div>
+                    <div class="bmi-info">
+                
+                        <span>BMI Categories :</span>
+                        <span>Underweight: BMI Less than or equal to 18.5</span>
+                        <span>Normal weight: 18.5 - 24.9 (BMI)</span>
+                        <span>Overweight: 25 - 29.9 (BMI)</span>
+                        <span>Obesity: BMI of 30 or greater</span>
+                        
+                    </div>
+                </div>
+                
+            </div>
+            <!-- <div>
+                Something
+            </div> -->
+        </div>
+        
+    </div>
+<!---------------------------------------------------------- SECTION2 - ABOUT ---------------------------------------------------------------->
+    <div class="about-div">
+        <div class="about-section">
+            <div class="about-image">
+                <img src="img12.png" class="aboutimg">
+            </div>
+            <div class="about-text">
+                <p class="pre-heading">INFORMATION ABOUT US</p>
+                <h1><span class="heading">THE FINAL ROUND</span>  <span class="subhead">- BOXING AND FITNESS CLUB</span></h1>
+                <p class="about-maintext"> A boxer's training depends largely on the point in their career at which he or she is situated. 
+                    If the boxer is just a beginner, a minimal training routine might consist of learning how to hit
+                    a heavy bag.
+                </p>
+                <ul class="about-list">
+                    <li>Personal Training</li>
+                    <li>Men Fitness and Workout</li>
+                    <li>Women Fitness and Workout</li>
+                </ul>
+            </div>
+            
+        </div>
+    </div>
+<!--------------------------------------------------------- PRICING SECTION 3--------------------------------------------------------------------->
+    <div>
+        <div class="subscription-block">
+            <div class="monthly-yearly-switch">
+                <span class="monthly-sub">MONTHLY PLAN</span>
+                <label class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                  </label>
+                  <span class="yearly-sub">YEARLY PLAN</span>
+                  
+            </div>
+            <div class="priceoffer">EXTRA 20% OFF ON YEARLY PLAN</div>
+            
+            <div class="price-table-wrapper">
+                <div class="pricing-table">
+                    <h2 class="pricing-table-header">- SILVER -</h2>
+                    <h3 class="pricing-table-price pricing1">£580<span>700</span></h3>
+                    <div class="pricing-table-button">
+                        <span target="_blank">
+                        Join Now!
+                        </span>
+                    </div>
+                    <ul class="pricing-table-list">
+                        <li>Access to Boxing Equipments</li>
+                        <li>Access to Gym showers</li>
+                        <li>2 hour Boxing session</li>
+                        <li>3 days a week</li>
+                        <li>General trainer</li>
+                        <li>Expert guidaance</li>
+                        <li>24 hour support</li>
+                    </ul>
+                </div>
+                <div class="pricing-table">
+                  <h2 class="pricing-table-header">- GOLD -</h2>
+                  <h3 class="pricing-table-price pricing2">£760<span>960</span></h3>
+                    <div class="pricing-table-button">
+                        <span target="_blank">
+                            Join Now!
+                        </span>
+                    </div>
+                    <ul class="pricing-table-list">
+                        <li>ALL BASIC FEATURES</li>
+                        <li>+</li>
+                        <li>Physio</li>
+                        <li>Private Locker</li>
+                        <li>General trainer</li>
+                        <li>2 Sparring sessionS</li>
+                        <li>24 hour support</li>
+                       
+                    </ul>  
+                </div>
+                <div class="pricing-table">
+                    <h2 class="pricing-table-header">- PLATINUM -</h2>
+                    <h3 class="pricing-table-price pricing3">£1250<span>1560</span></h3>
+                    <div class="pricing-table-button">
+                        <span target="_blank">
+                            Join Now!
+                        </span>
+                    </div>
+                    <ul class="pricing-table-list">
+                        <li>ALL PRO FEATURES</li>
+                        <li>+</li>
+                        <li>6 Days a week</li>
+                        <li>Injury rehab</li>
+                        <li>Personal trainer</li>
+                        <li>Personalized diet chart</li>
+                        <li>24 hour support</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+
+    </div>
+<!--------------------------------------------------------GET FREE CONSULTANCE SECTION 4------------------------------------------------------->
+<div class="get-free-consultance">
+    <div class="consultancy-content">
+        <form id="my-form" method="POST" action="https://script.google.com/macros/s/AKfycbykmI6iaYT8SKKklKNDg8xrb9rfSN2kbU6Y0WbOUW51Aiyf6WCLncw0GGHLxEs62H6h4A/exec">
+            <input name="Email" class="email-consultance-input" placeholder="Eg - iamarshbajaj@gmail.com" required>
+        
+            <button class="free-consultance-button" type="submit">
+                <span class="consultancybuttonspan">Get Free Consultance</span>
+            </button>
+        </form>
+            <div class="toggle-phone-email">
+                <img class="signinphone" src="phonepngimg.png">
+                <span>Use phone number instead !</span>
+                
+            </div>
+    </div>
+    
+</div>
+
+
+<!------------------------------------------------------ BANNER SECTION 5--------------------------------------------------------------------->
+    <div class="banner">
+        <h1>The Final Round</h1>
+        <p>Boxing And Fitness Club</p>
+        <a class="btn-bgstroke">Call To Action</a>
+    </div>
+    
+    
+<!----------------------------------------------------FOOTER SECTION 6------------------------------------------------------------------------->
+
+<footer class="footer-distributed">
+
+    <div class="footer-left">
+  <img src="profile image.jpeg">
+        <h3>ARSH<span>BAJAJ</span></h3>
+
+        <p class="footer-links">
+            <a href="#">Home</a>
+            |
+            <a href="https://arshbajaj.wordpress.com/">Blog</a>
+            |
+            <a href="https://www.linkedin.com/in/arshbajaj/">Contact</a>
+        </p>
+
+        <p class="footer-company-name"><a href="https://www.cecmohali.org/">CHANDIGARH ENGINEERING COLLEGE , LANDRAN</a></p>
+    </div>
+
+    <div class="footer-center">
+        <div>
+            <!-- <i class="fa fa-map-marker"></i> -->
+              <p><span>Hey , i am Arsh bajaj , Nice to see you all here. I am a Btech CSE student at chandigarh engineering college ,landran. 
+                  If you like this you must visit my other projects too !
+              </p>
+              <p>
+                  <a href="https://arshbajaj18.github.io/thegodfatherslotmachine.github.io/"> The Godfather's slot machine</a>
+              </p>
+        </div>
+
+        <div>
+            <i class="fa fa-phone"></i>
+            <p>+91 62804-20432</p>
+        </div>
+        <div>
+            <i class="fa fa-envelope"></i>
+            <p><a href="iamarshbajaj@gmail.com">iamarshbajaj@gmail.com</a></p>
+        </div>
+    </div>
+    <div class="footer-right">
+        <p class="footer-company-about">
+            <span>About Me</span>
+            I love to work on projects, take various challenges and give it my all to finish them in time. i am very passionate about my work and each day look forward to new challenges</p>
+        <div class="footer-icons">
+            <!-- <a href="#"><i class="fa fa-facebook"></i></a> -->
+            <!-- <a href="#"><i class="fa fa-twitter"></i></a> -->
+            <a href="https://www.instagram.com/arshbajaj18/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/arshbajaj/"><i class="fa fa-linkedin"></i></a>
+            <!-- <a href="#"><i class="fa fa-youtube"></i></a> -->
+        </div>
+    </div>
+</footer>
+
+
+
+
+<!------------------------------------------------------------------------------------------------------------------------------------->
+    <script src="script.js"> </script>
+    
+</body>
+</html>
